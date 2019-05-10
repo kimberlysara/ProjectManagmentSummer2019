@@ -5,12 +5,56 @@
     <e p="E:\Personal\Unity\SummerGameScripts" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="packages" t="Include">
+          <e p="NavMeshComponents" t="Include">
+            <e p="Editor" t="Include">
+              <e p="NavMeshAssetManager.cs" t="Include" />
+              <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+              <e p="NavMeshLinkEditor.cs" t="Include" />
+              <e p="NavMeshModifierEditor.cs" t="Include" />
+              <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+              <e p="NavMeshSurfaceEditor.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="NavMeshLink.cs" t="Include" />
+              <e p="NavMeshModifier.cs" t="Include" />
+              <e p="NavMeshModifierVolume.cs" t="Include" />
+              <e p="NavMeshSurface.cs" t="Include" />
+            </e>
+          </e>
+          <e p="TextMesh Pro" t="Include">
+            <e p="Resources" t="Include">
+              <e p="LineBreaking Following Characters.txt" t="Include" />
+              <e p="LineBreaking Leading Characters.txt" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+                <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+                <e p="TMP_Bitmap.shader" t="Include" />
+                <e p="TMP_SDF Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface.shader" t="Include" />
+                <e p="TMP_SDF.shader" t="Include" />
+                <e p="TMP_Sprite.shader" t="Include" />
+                <e p="TMPro.cginc" t="Include" />
+                <e p="TMPro_Properties.cginc" t="Include" />
+                <e p="TMPro_Surface.cginc" t="Include" />
+              </e>
+            </e>
+            <e p="Sprites" t="Include">
+              <e p="EmojiOne Attribution.txt" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Resources" t="Include">
           <e p="Text_Files" t="Include">
             <e p="Test.txt" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Camera_Switch.cs" t="Include" />
           <e p="DataObjects" t="Include">
             <e p="BoolInput.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
@@ -18,8 +62,7 @@
             <e p="FloatInputAxis.cs" t="Include" />
             <e p="KeyCodeData.cs" t="Include" />
           </e>
-          <e p="dialouge_objects.cs" t="Include" />
-          <e p="dialouge_script.cs" t="Include" />
+          <e p="Interact_with_object.cs" t="Include" />
           <e p="MiscScripts" t="Include">
             <e p="DeacvtivateSnapAreas.cs" t="Include" />
             <e p="DragAndRotate.cs" t="Include" />
@@ -32,7 +75,12 @@
             <e p="CharacterMovement.cs" t="Include" />
             <e p="MovePattern.cs" t="Include" />
           </e>
-          <e p="NPC_object.cs" t="Include" />
+          <e p="NPC_Scripts" t="Include">
+            <e p="dialouge_objects.cs" t="Include" />
+            <e p="dialouge_script.cs" t="Include" />
+            <e p="NPC_object.cs" t="Include" />
+            <e p="ReadFile.cs" t="Include" />
+          </e>
           <e p="Pipe_Puzzle" t="Include">
             <e p="Pipe_End_Objects.cs" t="Include" />
             <e p="Pipe_Trigger_Event.cs" t="Include" />
@@ -42,7 +90,6 @@
             <e p="PipePuzzleScript.cs" t="Include" />
             <e p="Single_Pipe_Object.cs" t="Include" />
           </e>
-          <e p="ReadFile.cs" t="Include" />
           <e p="Slide_Tiles_Puzzle" t="Include">
             <e p="Set_Tile_Text.cs" t="Include" />
             <e p="Slide_Directions.cs" t="Include" />
@@ -50,33 +97,10 @@
             <e p="Slide_Tiles.cs" t="Include" />
           </e>
         </e>
-        <e p="TextMesh Pro" t="Include">
-          <e p="Resources" t="Include">
-            <e p="LineBreaking Following Characters.txt" t="Include" />
-            <e p="LineBreaking Leading Characters.txt" t="Include" />
-            <e p="Shaders" t="Include">
-              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
-              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
-              <e p="TMP_Bitmap.shader" t="Include" />
-              <e p="TMP_SDF Overlay.shader" t="Include" />
-              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
-              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
-              <e p="TMP_SDF-Mobile.shader" t="Include" />
-              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
-              <e p="TMP_SDF-Surface.shader" t="Include" />
-              <e p="TMP_SDF.shader" t="Include" />
-              <e p="TMP_Sprite.shader" t="Include" />
-              <e p="TMPro.cginc" t="Include" />
-              <e p="TMPro_Properties.cginc" t="Include" />
-              <e p="TMPro_Surface.cginc" t="Include" />
-            </e>
-          </e>
-          <e p="Sprites" t="Include">
-            <e p="EmojiOne Attribution.txt" t="Include" />
-          </e>
-        </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
+      <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsEditor.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="SummerGameScripts.sln" t="IncludeFlat" />
