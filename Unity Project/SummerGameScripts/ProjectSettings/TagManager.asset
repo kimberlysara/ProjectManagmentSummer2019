@@ -24,7 +24,7 @@ TagManager:
   - SnapArea
   - PipeEntrance
   - ParticleEffect
-  - 
+  - IgnoreNavMesh
   - 
   - 
   - 

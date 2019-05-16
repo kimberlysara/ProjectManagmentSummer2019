@@ -56,6 +56,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="ActionObject.cs" t="Include" />
           <e p="Camera" t="Include">
             <e p="Camera_Controller.cs" t="Include" />
             <e p="Camera_Switch.cs" t="Include" />
@@ -75,6 +76,8 @@
             <e p="UnityKeyCodeObject.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
+          <e p="DebugObject.cs" t="Include" />
+          <e p="EventScript.cs" t="Include" />
           <e p="MiscScripts" t="Include">
             <e p="DeacvtivateSnapAreas.cs" t="Include" />
             <e p="DragAndRotate.cs" t="Include" />
@@ -93,6 +96,7 @@
             <e p="MovePattern.cs" t="Include" />
             <e p="Nav_Mesh_Controller.cs" t="Include" />
             <e p="Sprint_script.cs" t="Include" />
+            <e p="TestMovementScript.cs" t="Include" />
             <e p="Transform_Controller.cs" t="Include" />
           </e>
           <e p="NPC_Scripts" t="Include">

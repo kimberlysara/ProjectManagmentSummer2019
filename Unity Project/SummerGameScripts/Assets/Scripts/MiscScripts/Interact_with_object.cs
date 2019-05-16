@@ -40,4 +40,5 @@ public class Interact_with_object : MonoBehaviour
             _inRange = false;
         }
     }
+    
 }
