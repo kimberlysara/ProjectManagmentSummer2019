@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Cafe Assets.ma
-//Last modified: Tue, May 14, 2019 12:12:03 PM
+//Last modified: Tue, May 14, 2019 12:13:56 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "5538C466-4665-878C-94A1-63B1FEFB56EC";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1.7208404776493271 1.9638754245592689 2.1667965293030238 ;
+	setAttr ".t" -type "double3" 2.0354720732450544 2.5411857258689805 3.1017053982522587 ;
 	setAttr ".r" -type "double3" 689.66164728425156 738.59999999999161 -1.6779176473244091e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "1C6276B2-425A-AE6B-481E-FA802133CC0E";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 2.8183024086433006;
+	setAttr ".coi" 3.9612524592515386;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
