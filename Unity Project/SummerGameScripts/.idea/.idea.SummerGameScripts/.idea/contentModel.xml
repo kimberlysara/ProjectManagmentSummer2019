@@ -105,6 +105,7 @@
             <e p="NPC_object.cs" t="Include" />
             <e p="ReadFile.cs" t="Include" />
           </e>
+          <e p="NPCWalkObject.cs" t="Include" />
           <e p="OnTriggerWIthPLayerEvent.cs" t="Include" />
           <e p="Pipe_Puzzle" t="Include">
             <e p="Pipe_End_Objects.cs" t="Include" />
