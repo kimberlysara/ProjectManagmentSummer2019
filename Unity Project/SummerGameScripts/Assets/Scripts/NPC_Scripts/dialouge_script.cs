@@ -12,15 +12,17 @@ public class dialouge_script : MonoBehaviour
     public GameObject Dialouge_Object;
     public KeyCodeData Interact;
     public IntData ConvNum;
-    public bool ConvStart, InRange, SpeedUp;
+    private bool ConvStart, SpeedUp, inRange;
     private int _char, line, paragraph, _conNum;
     private string _text_to_display;
     public ActionObject EndDialouge;
+    public UnityEvent OnInteract;
+    
 
     private void Start()
     {
+        inRange = false;
         SpeedUp = false;
-        InRange = false;
         ConvStart = false;
         ConvNum.value = 0;
         line = 0;
@@ -31,28 +33,37 @@ public class dialouge_script : MonoBehaviour
         Dialouge_Object.SetActive(false);
     }
 
-    private void Update()
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (Interact.KeyDown() && !ConvStart && InRange)
+        if (other.CompareTag("Player"))
+            inRange = true;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+            inRange = false;
+    }
+
+    private void FixedUpdate()
+    {
+        if (inRange && !ConvStart && Interact.KeyDown())
         {
-            Debug.Log("Start");
-            ConvStart = true;
-            Dialouge_Object.SetActive(true);
-            StartCoroutine(ScrollText());
-            StartCoroutine(CheckSpeed());
-        }       
+            OnInteract.Invoke();
+            StartConv();
+        }
     }
 
     public void StartConv()
     {
-        if (!ConvStart)
-        {
+        if (!ConvStart){
             ConvStart = true;
-            Dialouge_Object.SetActive(true);
-            StartCoroutine(ScrollText());
-            StartCoroutine(CheckSpeed());
-        }
+        Dialouge_Object.SetActive(true);
+        StartCoroutine(ScrollText());
+        StartCoroutine(CheckSpeed());
     }
+}
 
     private IEnumerator CheckSpeed()
     {
@@ -67,25 +78,6 @@ public class dialouge_script : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
         yield return new WaitForFixedUpdate();
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            Debug.Log("In Range");
-            InRange = true;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            Debug.Log("Out of Range");
-            InRange = false;
-            //ConvStart = false;
-        }
     }
 
     public IEnumerator ScrollText()
@@ -116,9 +108,9 @@ public class dialouge_script : MonoBehaviour
                             Dialouge_Text.text = _text_to_display;
                             _char++;
                         }
+                        yield return new WaitForSeconds(.1f);
                     }    
                 }
-                yield return new WaitForSeconds(.1f);
                 yield return new WaitUntil(Interact.KeyDown);
                 SpeedUp = false;
                 _char = 0;

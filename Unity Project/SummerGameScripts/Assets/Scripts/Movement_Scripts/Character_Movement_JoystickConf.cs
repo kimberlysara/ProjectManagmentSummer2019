@@ -58,8 +58,6 @@ public class Character_Movement_JoystickConf : MonoBehaviour
         StartCoroutine(Walk_Backward());
     }
 
-
-
     public void SetPosition()
     {
         transform.position = target.trans.position;
@@ -86,6 +84,15 @@ public class Character_Movement_JoystickConf : MonoBehaviour
         ReachDestAct.Action.Invoke();
         
     }
+
+    public void TurnTowards()
+    {
+        walkspeed = 0;
+        rotatespeed = RotationFloat;
+        _rotation = target.trans.rotation;
+        _rotation.y += 180;
+        StartCoroutine(Rotate());    
+    }
     
     
     public IEnumerator Walk_Backward()
@@ -109,9 +116,8 @@ public class Character_Movement_JoystickConf : MonoBehaviour
         Debug.Log("Rotate");
         CRRunning = true;
         _rotation = target.trans.rotation;
-        while ((transform.rotation.y >= _rotation.y + .05f) || (transform.rotation.y <= _rotation.y - .05f))
+        while (!CheckRot(.5f))
         {
-            //Debug.Log("Rotation: " + _rotation);
             transform.rotation = Quaternion.Lerp(transform.rotation, _rotation, rotatespeed * Time.deltaTime);
             yield return new WaitForFixedUpdate();
         }
@@ -139,5 +145,18 @@ public class Character_Movement_JoystickConf : MonoBehaviour
         CRRunning = false;
     }
     
+        
+    
+    private bool CheckRot(float offset)
+    {
+        if((transform.rotation.eulerAngles.y <= (_rotation.eulerAngles.y + offset))
+           && (transform.rotation.eulerAngles.y >= (_rotation.eulerAngles.y - offset)))
+            return true;
+        else
+        {
+            return false;
+        }
+    }
+
     
 }

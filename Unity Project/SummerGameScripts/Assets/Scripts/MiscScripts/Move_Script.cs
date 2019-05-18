@@ -1,5 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
+using UnityEditor.U2D;
 using UnityEngine;
 
 public class Move_Script : MonoBehaviour
@@ -42,4 +45,27 @@ public class Move_Script : MonoBehaviour
             rotate_dest = false;
         }
     }
+
+
+    public IEnumerator RotateTowards( Vector3 direction, float speed)
+    {
+        rotate_dest = false;
+        _rotation = transform.rotation;
+        _rotation.x = direction.x;
+        _rotation.y =  direction.y;
+        _rotation.z = direction.z;
+        while ((transform.rotation.y >= _rotation.y + .05f) || (transform.rotation.y <= _rotation.y - .05f))
+        {
+            //Debug.Log("Rotation: " + _rotation);
+            transform.rotation = Quaternion.Lerp(transform.rotation, _rotation, speed * Time.deltaTime);
+            yield return new WaitForFixedUpdate();
+        }
+        Debug.Log("Rotate Done");
+    }
+
+    public void FindDirection(Transform target)
+    {
+        Direction.vector = target.position - transform.position;
+    }
+    
 }

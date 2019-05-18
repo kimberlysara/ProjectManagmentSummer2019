@@ -55,16 +55,15 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="ActionObject.cs" t="Include" />
           <e p="Camera" t="Include">
             <e p="Camera_Controller.cs" t="Include" />
             <e p="Camera_Switch.cs" t="Include" />
           </e>
-          <e p="Change_Rigidbody_Script.cs" t="Include" />
-          <e p="Change_Scene.cs" t="Include" />
           <e p="DataObjects" t="Include">
+            <e p="ActionObject.cs" t="Include" />
             <e p="BoolData.cs" t="Include" />
             <e p="BoolInput.cs" t="Include" />
+            <e p="DebugObject.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="FloatInput.cs" t="Include" />
             <e p="FloatInputAxis.cs" t="Include" />
@@ -77,17 +76,19 @@
             <e p="UnityKeyCodeObject.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
-          <e p="DebugObject.cs" t="Include" />
-          <e p="EventScript.cs" t="Include" />
           <e p="MiscScripts" t="Include">
+            <e p="ActionModifier.cs" t="Include" />
+            <e p="Change_Rigidbody_Script.cs" t="Include" />
+            <e p="Change_Scene.cs" t="Include" />
             <e p="DeacvtivateSnapAreas.cs" t="Include" />
             <e p="DragAndRotate.cs" t="Include" />
             <e p="EventsScript.cs" t="Include" />
             <e p="Interact_with_object.cs" t="Include" />
+            <e p="Move_Script.cs" t="Include" />
+            <e p="OnTriggerWIthPLayerEvent.cs" t="Include" />
             <e p="SnapScript.cs" t="Include" />
             <e p="viewing_spot_trigger.cs" t="Include" />
           </e>
-          <e p="Move_Script.cs" t="Include" />
           <e p="Movement_Scripts" t="Include">
             <e p="AnimationScript.cs" t="Include" />
             <e p="CameraFollow.cs" t="Include" />
@@ -97,6 +98,7 @@
             <e p="Joystick_Move_Pattern.cs" t="Include" />
             <e p="MovePattern.cs" t="Include" />
             <e p="Nav_Mesh_Controller.cs" t="Include" />
+            <e p="Set_Start_Destination.cs" t="Include" />
             <e p="Sprint_script.cs" t="Include" />
             <e p="TestMovementScript.cs" t="Include" />
             <e p="Transform_Controller.cs" t="Include" />
@@ -108,7 +110,7 @@
             <e p="NPC_object.cs" t="Include" />
             <e p="ReadFile.cs" t="Include" />
           </e>
-          <e p="OnTriggerWIthPLayerEvent.cs" t="Include" />
+          <e p="Pause_Script.cs" t="Include" />
           <e p="Pipe_Puzzle" t="Include">
             <e p="Pipe_End_Objects.cs" t="Include" />
             <e p="Pipe_Trigger_Event.cs" t="Include" />
@@ -118,7 +120,6 @@
             <e p="PipePuzzleScript.cs" t="Include" />
             <e p="Single_Pipe_Object.cs" t="Include" />
           </e>
-          <e p="Set_Start_Destination.cs" t="Include" />
           <e p="Slide_Tiles_Puzzle" t="Include">
             <e p="Set_Tile_Text.cs" t="Include" />
             <e p="Slide_Directions.cs" t="Include" />
