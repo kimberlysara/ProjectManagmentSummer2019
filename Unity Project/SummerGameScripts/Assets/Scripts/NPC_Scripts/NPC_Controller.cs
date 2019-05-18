@@ -62,10 +62,12 @@ public class NPC_Controller : MonoBehaviour
                 CheckRot();
                 yield return new WaitForFixedUpdate();
             }
-
-            StopMovement("RandomWalkBetween");
+            anim.ResetTrigger("Walk");
+            anim.SetTrigger("Idle");
             yield return new WaitForSeconds(Random.Range(3,5));
         }
+        Debug.Log("Stop");
+        StopMovement("RandomWalkBetween");
     }
 
     private IEnumerator SidewaysX()
@@ -127,6 +129,7 @@ public class NPC_Controller : MonoBehaviour
     private IEnumerator GoToDest()
     {
         //StopMovement();
+        anim.SetTrigger("Walk");
         reached_dest = false;
         rotate_dest = false;
         target = Destination01.trans.position;
@@ -145,6 +148,8 @@ public class NPC_Controller : MonoBehaviour
         }
         Debug.Log("Reached Destination");
         StopMovement("RandomWalkBetween");
+        anim.ResetTrigger("Walk");
+        anim.SetTrigger("Idle");
         Reach_Dest.Action.Invoke();
     }
 
