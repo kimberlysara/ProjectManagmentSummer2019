@@ -127,6 +127,7 @@
             <e p="Slide_Tile_Object.cs" t="Include" />
             <e p="Slide_Tiles.cs" t="Include" />
           </e>
+          <e p="UI_Drag.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

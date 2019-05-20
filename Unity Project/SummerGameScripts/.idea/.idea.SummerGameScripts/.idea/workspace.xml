@@ -7,27 +7,7 @@
     <list default="true" id="d183136a-9d8b-4f4a-944d-74955dadf713" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SummerGameScripts/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SummerGameScripts/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SummerGameScripts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SummerGameScripts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Cart.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Cart.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Door.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Door.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Door_Close.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Door_Close.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Door_Idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Door_Idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Door_Open.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Door_Open.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Rotate.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Rotate.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Rotate_Left.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Rotate_Left.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CharacterController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CharacterController.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NPC_NavAgent.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NPC_NavAgent.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScripts.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScripts.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_House.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test_House.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pause_Script.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pause_Script.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Pushing_Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Pushing_Test.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -160,17 +140,17 @@
       <file leaf-file-name="Push_Script.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement_Scripts/Push_Script.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="360">
               <caret line="25" column="80" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
               <folding>
-                <marker date="1558390959685" expanded="false" signature="6:44" ph="..." />
-                <marker date="1558390959685" expanded="true" signature="86:2224" ph="{...}" />
-                <marker date="1558390959685" expanded="true" signature="375:1155" ph="{...}" />
-                <marker date="1558390959685" expanded="true" signature="464:1149" ph="{...}" />
-                <marker date="1558390959685" expanded="true" signature="668:1135" ph="{...}" />
-                <marker date="1558390959685" expanded="true" signature="1201:1576" ph="{...}" />
-                <marker date="1558390959685" expanded="true" signature="1259:1541" ph="{...}" />
-                <marker date="1558390959685" expanded="true" signature="1623:2222" ph="{...}" />
+                <marker date="1558391915054" expanded="false" signature="6:44" ph="..." />
+                <marker date="1558391915054" expanded="true" signature="86:2224" ph="{...}" />
+                <marker date="1558391915054" expanded="true" signature="375:1155" ph="{...}" />
+                <marker date="1558391915054" expanded="true" signature="464:1149" ph="{...}" />
+                <marker date="1558391915054" expanded="true" signature="668:1135" ph="{...}" />
+                <marker date="1558391915054" expanded="true" signature="1201:1576" ph="{...}" />
+                <marker date="1558391915054" expanded="true" signature="1259:1541" ph="{...}" />
+                <marker date="1558391915054" expanded="true" signature="1623:2222" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -247,7 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/DataObjects/BoolData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/viewing_spot_trigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interact_with_object.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pipe_Puzzle/PipePuzzleScript.cs" />
@@ -298,6 +277,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Push_Object_Script.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Push_Script.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement_Scripts/Push_Script.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI_Drag.cs" />
       </list>
     </option>
   </component>
@@ -307,7 +287,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="width" value="1355" />
     <option name="height" value="1039" />
   </component>
@@ -428,12 +408,12 @@
       <workItem from="1558211001362" duration="11406000" />
       <workItem from="1558223235357" duration="524000" />
       <workItem from="1558381390458" duration="9050000" />
-      <workItem from="1558390945719" duration="610000" />
+      <workItem from="1558390945719" duration="1418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173574000" />
+    <option name="totallyTimeSpent" value="174382000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,7 +426,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1084" height="831" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -487,7 +466,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Change_Movement.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Joystick_Move_Pattern.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character_Movement_JoystickConf.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement_Scripts/CharacterMovement.cs">
@@ -735,19 +713,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI_Drag.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement_Scripts/Push_Script.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="360">
           <caret line="25" column="80" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
           <folding>
-            <marker date="1558390959685" expanded="false" signature="6:44" ph="..." />
-            <marker date="1558390959685" expanded="true" signature="86:2224" ph="{...}" />
-            <marker date="1558390959685" expanded="true" signature="375:1155" ph="{...}" />
-            <marker date="1558390959685" expanded="true" signature="464:1149" ph="{...}" />
-            <marker date="1558390959685" expanded="true" signature="668:1135" ph="{...}" />
-            <marker date="1558390959685" expanded="true" signature="1201:1576" ph="{...}" />
-            <marker date="1558390959685" expanded="true" signature="1259:1541" ph="{...}" />
-            <marker date="1558390959685" expanded="true" signature="1623:2222" ph="{...}" />
+            <marker date="1558391915054" expanded="false" signature="6:44" ph="..." />
+            <marker date="1558391915054" expanded="true" signature="86:2224" ph="{...}" />
+            <marker date="1558391915054" expanded="true" signature="375:1155" ph="{...}" />
+            <marker date="1558391915054" expanded="true" signature="464:1149" ph="{...}" />
+            <marker date="1558391915054" expanded="true" signature="668:1135" ph="{...}" />
+            <marker date="1558391915054" expanded="true" signature="1201:1576" ph="{...}" />
+            <marker date="1558391915054" expanded="true" signature="1259:1541" ph="{...}" />
+            <marker date="1558391915054" expanded="true" signature="1623:2222" ph="{...}" />
           </folding>
         </state>
       </provider>
