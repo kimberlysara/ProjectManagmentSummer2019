@@ -10,6 +10,7 @@ TagManager:
   - NPC
   - Puzzle
   - ViewSpot
+  - Pushable
   layers:
   - Default
   - TransparentFX

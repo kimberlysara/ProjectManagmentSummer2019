@@ -86,6 +86,7 @@
             <e p="Interact_with_object.cs" t="Include" />
             <e p="Move_Script.cs" t="Include" />
             <e p="OnTriggerWIthPLayerEvent.cs" t="Include" />
+            <e p="Pause_Script.cs" t="Include" />
             <e p="SnapScript.cs" t="Include" />
             <e p="viewing_spot_trigger.cs" t="Include" />
           </e>
@@ -98,6 +99,7 @@
             <e p="Joystick_Move_Pattern.cs" t="Include" />
             <e p="MovePattern.cs" t="Include" />
             <e p="Nav_Mesh_Controller.cs" t="Include" />
+            <e p="Push_Script.cs" t="Include" />
             <e p="Set_Start_Destination.cs" t="Include" />
             <e p="Sprint_script.cs" t="Include" />
             <e p="TestMovementScript.cs" t="Include" />
@@ -110,7 +112,6 @@
             <e p="NPC_object.cs" t="Include" />
             <e p="ReadFile.cs" t="Include" />
           </e>
-          <e p="Pause_Script.cs" t="Include" />
           <e p="Pipe_Puzzle" t="Include">
             <e p="Pipe_End_Objects.cs" t="Include" />
             <e p="Pipe_Trigger_Event.cs" t="Include" />
