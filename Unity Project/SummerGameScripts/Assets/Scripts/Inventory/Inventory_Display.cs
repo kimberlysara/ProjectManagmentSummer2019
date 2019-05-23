@@ -11,6 +11,8 @@ public class Inventory_Display : MonoBehaviour
     private List<Image> ObjectImages, NoteImages, KeyImages;
     public List<GameObject> ObjectButtons, NoteButtons, KeyButtons;
     private Item item;
+    private Inventory_Button_Object Button_Script;
+    
 
     private void Start()
     {
@@ -23,6 +25,8 @@ public class Inventory_Display : MonoBehaviour
         ObjectImages.Clear();
         NoteImages = new List<Image>();
         NoteImages.Clear();
+        KeyImages = new List<Image>();
+        KeyImages.Clear();
         if (INV.Objects.objList.Count > 0)
             for (int i = 0; i < INV.Objects.objList.Count; i++)
             {
@@ -88,8 +92,10 @@ public class Inventory_Display : MonoBehaviour
         NoteListUI.SetActive(true);
     }
 
-    public void OpenDescription(Item item)
+    public void OpenDescription(GameObject button)
     {
+        Button_Script = button.GetComponent<Inventory_Button_Object>();
+        
         descriptionOpen = true;
         InformationDisplay.SetActive(true);      
     }
