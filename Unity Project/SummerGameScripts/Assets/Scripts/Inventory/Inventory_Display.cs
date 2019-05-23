@@ -9,10 +9,8 @@ public class Inventory_Display : MonoBehaviour
     public GameObject InventoryUI, ObjectListUI, NoteListUI, KeyListUI, InformationDisplay;
     private bool descriptionOpen;
     private List<Image> ObjectImages, NoteImages, KeyImages;
-    public List<GameObject> ObjectButtons, NoteButtons, KeyButtons;
+    public List<Button> ObjectButtons, NoteButtons, KeyButtons;
     private Item item;
-    private Inventory_Button_Object Button_Script;
-    
 
     private void Start()
     {
@@ -27,38 +25,44 @@ public class Inventory_Display : MonoBehaviour
         NoteImages.Clear();
         KeyImages = new List<Image>();
         KeyImages.Clear();
-        if (INV.Objects.objList.Count > 0)
-            for (int i = 0; i < INV.Objects.objList.Count; i++)
-            {
-                ObjectImages.Add(ObjectButtons[i].transform.Find("Image").GetComponent<Image>());
-                item = INV.Objects.objList[i] as Item;
-                ObjectImages[i].sprite = item.inventoryImage;
-                ObjectButtons[i].GetComponent<Inventory_Button_Object>().buttonNum = i;
-                ObjectButtons[i].GetComponent<Inventory_Button_Object>().itemName = item.itemName;
-                ObjectButtons[i].GetComponent<Inventory_Button_Object>().hasItem = true;
-            }
+        AssignButtons(INV.Objects.objList, ObjectButtons, ObjectImages);
+        AssignButtons(INV.Notes.objList, NoteButtons, NoteImages);
+        AssignButtons(INV.Keys.objList, KeyButtons, KeyImages);
+        AssignImages(INV.Keys.objList, KeyImages);
+        AssignImages(INV.Objects.objList, ObjectImages);
+        AssignImages(INV.Notes.objList, NoteImages);
+    }
 
-        if (INV.Objects.objList.Count > 0)
-            for (int i = 0; i < INV.Notes.objList.Count; i++)
+    private void AssignButtons(List<Object> ItemList, List<Button> buttons, List<Image> images)
+    {
+        foreach (var button in buttons)
+        {
+            button.enabled = false;
+            images.Add(button.transform.Find("Image").GetComponent<Image>());
+        }
+        if (ItemList.Count > 0)
+            for (int i = 0; i < ItemList.Count; i++)
             {
-                NoteImages.Add(NoteButtons[i].transform.Find("Image").GetComponent<Image>());
-                item = INV.Notes.objList[i] as Item;
-                NoteImages[i].sprite = item.inventoryImage;
-                NoteButtons[i].GetComponent<Inventory_Button_Object>().buttonNum = i;
-                NoteButtons[i].GetComponent<Inventory_Button_Object>().itemName = item.itemName;
-                NoteButtons[i].GetComponent<Inventory_Button_Object>().hasItem = true;
+                item = ItemList[i] as Item;
+                buttons[i].GetComponent<Inventory_Button_Object>().item = item;
+                buttons[i].enabled = true;
             }
-        if (INV.Keys.objList.Count > 0)
-            for (int i = 0; i < INV.Objects.objList.Count; i++)
-            {
-                KeyImages.Add(KeyButtons[i].transform.Find("Image").GetComponent<Image>());
-                item = INV.Objects.objList[i] as Item;
-                KeyImages[i].sprite = item.inventoryImage;
-                KeyButtons[i].GetComponent<Inventory_Button_Object>().buttonNum = i;
-                KeyButtons[i].GetComponent<Inventory_Button_Object>().itemName = item.itemName;
-                KeyButtons[i].GetComponent<Inventory_Button_Object>().hasItem = true;
-            }
+    }
 
+    private void AssignImages(List<Object> ItemList, List<Image> images)
+    {
+        foreach (var image in images)
+        {
+            image.color = Color.clear;
+        }
+        if (ItemList.Count > 0)
+            for (int i = 0; i < ItemList.Count; i++)
+            {
+                item = ItemList[i] as Item;
+                images[i].sprite = item.inventoryImage;
+                Debug.Log(item.inventoryImage.name);
+                images[i].color = Color.white;
+            }
     }
 
     public void OpenInventory()
@@ -92,11 +96,53 @@ public class Inventory_Display : MonoBehaviour
         NoteListUI.SetActive(true);
     }
 
-    public void OpenDescription(GameObject button)
+    public void OpenDescription()
     {
-        Button_Script = button.GetComponent<Inventory_Button_Object>();
+        if (!descriptionOpen)
+        {
+            foreach (var button in ObjectButtons)
+            {
+                button.enabled = false;
+            }
+            foreach (var button in KeyButtons)
+            {
+                button.enabled = false;
+            }
+            foreach (var button in NoteButtons)
+            {
+                button.enabled = false;
+            }
+            descriptionOpen = true;
+            InformationDisplay.SetActive(true);
+        }
+    }
+
+    public void CloseDescription()
+    {
         
-        descriptionOpen = true;
-        InformationDisplay.SetActive(true);      
+        descriptionOpen = false;
+        InformationDisplay.SetActive(false);
+        for (int i = 0; i < INV.Objects.objList.Count; i++)
+        {
+            ObjectButtons[i].enabled = true;
+        }
+
+        for (int i = 0; i < INV.Notes.objList.Count; i++)
+        {
+            NoteButtons[i].enabled = true;
+        }
+
+        for (int i = 0; i < INV.Objects.objList.Count; i++)
+        {
+            KeyButtons[i].enabled = true;
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        if (descriptionOpen && Input.GetMouseButtonDown(0))
+        {
+            CloseDescription();
+        }
     }
 }
