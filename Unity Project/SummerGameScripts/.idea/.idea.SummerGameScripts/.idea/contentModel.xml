@@ -76,6 +76,7 @@
             <e p="KeyCodeDataKeys.cs" t="Include" />
             <e p="ListData.cs" t="Include" />
             <e p="Player_Object.cs" t="Include" />
+            <e p="QuaternionData.cs" t="Include" />
             <e p="StringData.cs" t="Include" />
             <e p="TransformData.cs" t="Include" />
             <e p="UnityKeyCodeObject.cs" t="Include" />
