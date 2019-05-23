@@ -4,7 +4,45 @@
     <bookmark url="file://$PROJECT_DIR$/Assets/Scripts/Movement_Scripts/Character_Movement_JoystickConf.cs" line="36" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d183136a-9d8b-4f4a-944d-74955dadf713" name="Default" comment="" />
+=======
+    <list default="true" id="d183136a-9d8b-4f4a-944d-74955dadf713" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SummerGameScripts/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SummerGameScripts/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SummerGameScripts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SummerGameScripts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/CharacterAnimation/Cat_Animator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/CharacterAnimation/Cat_Animator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Inventory/Item_Spot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Inventory/Item_Spot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Pushing_Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Pushing_Test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game_Manager_Cafe.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game_Manager_Cafe.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Back_Room_Key.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Back_Room_Key.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/DropDown.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/DropDown.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Ingredients.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Ingredients.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory_Button_Object.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory_Button_Object.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory_Display.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory_Display.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Keys.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Keys.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Letter_01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Letter_01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Notes.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Notes.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Vial #1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Vial #1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item_Pickup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item_Pickup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Test.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Test.cs.meta" beforeDir="false" />
+    </list>
+>>>>>>> parent of 3085103... Fixing some parts of the game
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +52,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="dialouge_script.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/NPC_Scripts/dialouge_script.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,10 +79,23 @@
                 <marker date="1558575639859" expanded="true" signature="2998:3467" ph="{...}" />
                 <marker date="1558575639859" expanded="true" signature="3119:3383" ph="{...}" />
               </folding>
+=======
+      <file leaf-file-name="Change_Scene.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MiscScripts/Change_Scene.cs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Character_Movement_JoystickConf.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement_Scripts/Character_Movement_JoystickConf.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1110">
+              <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="NPC_Controller.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/NPC_Scripts/NPC_Controller.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,25 +131,71 @@
                 <marker date="1558575803872" expanded="true" signature="6565:6611" ph="{...}" />
                 <marker date="1558575803872" expanded="true" signature="6658:6938" ph="{...}" />
                 <marker date="1558575803872" expanded="true" signature="6886:6932" ph="{...}" />
+=======
+      <file leaf-file-name="Inventory_Display.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory_Display.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+              <folding>
+                <marker date="1558649737351" expanded="false" signature="6:100" ph="..." />
+                <marker date="1558649737351" expanded="true" signature="148:4100" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="476:510" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="540:1123" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="1220:1686" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="1266:1400" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="1485:1680" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="1760:2182" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="1804:1863" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="1948:2176" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="2215:2308" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="2338:2506" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="2540:2708" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="2739:2907" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="2942:3437" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="2978:3431" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="3038:3106" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="3153:3221" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="3269:3337" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="3473:3942" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="3626:3691" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="3750:3813" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="3874:3936" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="3974:4098" ph="{...}" />
+                <marker date="1558649737351" expanded="true" signature="4040:4092" ph="{...}" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Change_Scene.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MiscScripts/Change_Scene.cs">
+=======
+      <file leaf-file-name="Note.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Note.cs">
+>>>>>>> parent of 3085103... Fixing some parts of the game
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="120">
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding>
+<<<<<<< HEAD
                 <marker date="1557770560814" expanded="false" signature="6:113" ph="..." />
                 <marker date="1557770560814" expanded="true" signature="156:350" ph="{...}" />
                 <marker date="1557770560814" expanded="true" signature="237:348" ph="{...}" />
                 <marker date="1557770560814" expanded="true" signature="280:343" ph="{...}" />
+=======
+                <marker date="1558495109450" expanded="false" signature="6:78" ph="..." />
+                <marker date="1558495109450" expanded="true" signature="150:262" ph="{...}" />
+                <marker date="1558495109450" expanded="true" signature="211:260" ph="{...}" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Character_Movement_JoystickConf.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement_Scripts/Character_Movement_JoystickConf.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,10 +222,23 @@
                 <marker date="1558582498288" expanded="true" signature="4271:4539" ph="{...}" />
                 <marker date="1558582498288" expanded="true" signature="4487:4533" ph="{...}" />
               </folding>
+=======
+      <file leaf-file-name="Get_Item_01.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Resources/Text_Files/Get_Item_01.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Note_01.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Resources/Text_Files/Note_01.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="4" selection-end-column="56" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="QuaternionData.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataObjects/QuaternionData.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -137,11 +248,29 @@
                 <marker date="1558582498402" expanded="false" signature="6:107" ph="..." />
                 <marker date="1558582498402" expanded="true" signature="202:339" ph="{...}" />
                 <marker date="1558582498402" expanded="true" signature="286:337" ph="{...}" />
+=======
+      <file leaf-file-name="Pause_Script.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MiscScripts/Pause_Script.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+              <folding>
+                <marker date="1558641702541" expanded="false" signature="6:104" ph="..." />
+                <marker date="1558641702541" expanded="true" signature="147:1257" ph="{...}" />
+                <marker date="1558641702541" expanded="true" signature="352:415" ph="{...}" />
+                <marker date="1558641702541" expanded="true" signature="421:815" ph="/* private void Update() ... */" />
+                <marker date="1558641702541" expanded="true" signature="851:1176" ph="{...}" />
+                <marker date="1558641702541" expanded="true" signature="895:1170" ph="{...}" />
+                <marker date="1558641702541" expanded="true" signature="933:1038" ph="{...}" />
+                <marker date="1558641702541" expanded="true" signature="1055:1160" ph="{...}" />
+                <marker date="1558641702541" expanded="true" signature="1213:1255" ph="{...}" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="TransformData.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataObjects/TransformData.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -152,20 +281,44 @@
                 <marker date="1558581390084" expanded="true" signature="201:531" ph="{...}" />
                 <marker date="1558581390084" expanded="true" signature="306:344" ph="{...}" />
                 <marker date="1558581390084" expanded="true" signature="399:528" ph="{...}" />
+=======
+      <file leaf-file-name="Inventory_Button_Object.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory_Button_Object.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <marker date="1558644795365" expanded="false" signature="6:138" ph="..." />
+                <marker date="1558644795365" expanded="true" signature="192:921" ph="{...}" />
+                <marker date="1558644795365" expanded="true" signature="377:540" ph="{...}" />
+                <marker date="1558644795365" expanded="true" signature="407:534" ph="{...}" />
+                <marker date="1558644795365" expanded="true" signature="571:644" ph="{...}" />
+                <marker date="1558644795365" expanded="true" signature="678:744" ph="{...}" />
+                <marker date="1558644795365" expanded="true" signature="776:919" ph="{...}" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="NPC_01.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Resources/Text_Files/NPC_01.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="990">
               <caret line="66" selection-start-line="66" selection-end-line="66" />
+=======
+      <file leaf-file-name="QuaternionData.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataObjects/QuaternionData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Inventory_Dialouge.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Resources/Items/Inventory_Dialouge.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -233,6 +386,13 @@
                 <marker date="1558572197196" expanded="true" signature="3198:3300" ph="{...}" />
                 <marker date="1558572197196" expanded="true" signature="3238:3264" ph="{...}" />
               </folding>
+=======
+      <file leaf-file-name="TransformData.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataObjects/TransformData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
             </state>
           </provider>
         </entry>
@@ -310,8 +470,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Assets/Scripts/DontDestoryScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateObjects.cs" />
+=======
+>>>>>>> parent of 3085103... Fixing some parts of the game
         <option value="$PROJECT_DIR$/Assets/Scripts/ActionObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPCWalkObject.cs" />
@@ -361,6 +524,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DataObjects/TransformData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataObjects/QuaternionData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement_Scripts/Character_Movement_JoystickConf.cs" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/Assets/Scripts/MiscScripts/Pause_Script.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory_Button_Object.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DropDown_Script.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory_Display.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Text_Files/Note_01.txt" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
       </list>
     </option>
   </component>
@@ -370,9 +541,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="1">
     <option name="width" value="1260" />
     <option name="height" value="1040" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1385" />
+    <option name="height" value="1038" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -380,7 +557,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> parent of 3085103... Fixing some parts of the game
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -399,22 +579,15 @@
               <item name="" type="1045f7f1:UnityExplorerNode" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="SummerGameScripts" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="SummerGameScripts" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
       <pane id="SolutionExplorer">
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
@@ -508,11 +681,23 @@
       <workItem from="1558556896784" duration="3370000" />
       <workItem from="1558565108113" duration="7563000" />
       <workItem from="1558579447945" duration="3200000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1558637337681" duration="2035000" />
+      <workItem from="1558643585259" duration="4424000" />
+      <workItem from="1558648144288" duration="363000" />
+      <workItem from="1558648521134" duration="8000" />
+      <workItem from="1558648954922" duration="1928000" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="204689000" />
+=======
+    <option name="totallyTimeSpent" value="213447000" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,8 +709,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="0" width="1008" height="832" extended-state="1" />
     <editor active="true" />
+=======
+    <frame x="0" y="0" width="1108" height="830" extended-state="0" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -534,7 +723,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32383966" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -566,11 +759,92 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement_Scripts/CameraFollow.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement_Scripts/Change_Movement.cs">
       <provider selected="true" editor-type-id="text-editor" />
+=======
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MiscScripts/Change_Scene.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataObjects/QuaternionData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataObjects/TransformData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Text_Files/NPC_01.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Items/Inventory_Dialouge.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game_Manager_Cafe.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/NPC_Scripts/ReadFile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement_Scripts/Character_Movement_JoystickConf.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="26" lean-forward="true" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory_Display.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1558649737351" expanded="false" signature="6:100" ph="..." />
+            <marker date="1558649737351" expanded="true" signature="148:4100" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="476:510" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="540:1123" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="1220:1686" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="1266:1400" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="1485:1680" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="1760:2182" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="1804:1863" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="1948:2176" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="2215:2308" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="2338:2506" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="2540:2708" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="2739:2907" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="2942:3437" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="2978:3431" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3038:3106" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3153:3221" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3269:3337" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3473:3942" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3626:3691" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3750:3813" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3874:3936" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3974:4098" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="4040:4092" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+>>>>>>> parent of 3085103... Fixing some parts of the game
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement_Scripts/Joystick_Move_Pattern.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -609,6 +883,7 @@
         <state relative-caret-position="-183" />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/NPC_Scripts/dialouge_objects.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -618,11 +893,14 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pipe_Puzzle/Pipe_End_Objects.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+=======
+>>>>>>> parent of 3085103... Fixing some parts of the game
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pipe_Puzzle/Pipe_Trigger_Event.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-319" />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pipe_Puzzle/PipeEntrance.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -632,14 +910,19 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pipe_Puzzle/PipeObject.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+=======
+>>>>>>> parent of 3085103... Fixing some parts of the game
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pipe_Puzzle/PipePuzzleScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-514" />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pipe_Puzzle/Single_Pipe_Object.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+=======
+>>>>>>> parent of 3085103... Fixing some parts of the game
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Time_Scale_Modifier.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Test.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -735,6 +1018,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Item_Pickup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -742,10 +1026,14 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Item_Pickup.cs" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MiscScripts/Interact_with_object.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+<<<<<<< HEAD
           <folding>
             <marker date="1558556963864" expanded="false" signature="6:104" ph="..." />
             <marker date="1558556963864" expanded="true" signature="155:1217" ph="{...}" />
@@ -779,6 +1067,8 @@
             <marker date="1558552321039" expanded="true" signature="3096:3264" ph="{...}" />
             <marker date="1558552321039" expanded="true" signature="3308:3402" ph="{...}" />
           </folding>
+=======
+>>>>>>> parent of 3085103... Fixing some parts of the game
         </state>
       </provider>
     </entry>
@@ -955,6 +1245,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataObjects/TransformData.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -977,11 +1268,18 @@
             <marker date="1558582498402" expanded="true" signature="202:339" ph="{...}" />
             <marker date="1558582498402" expanded="true" signature="286:337" ph="{...}" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataObjects/QuaternionData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+>>>>>>> parent of 3085103... Fixing some parts of the game
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement_Scripts/Character_Movement_JoystickConf.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1050">
           <caret line="74" column="26" lean-forward="true" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
           <folding>
@@ -1008,5 +1306,113 @@
         </state>
       </provider>
     </entry>
+=======
+        <state relative-caret-position="1110">
+          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MiscScripts/Pause_Script.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding>
+            <marker date="1558641702541" expanded="false" signature="6:104" ph="..." />
+            <marker date="1558641702541" expanded="true" signature="147:1257" ph="{...}" />
+            <marker date="1558641702541" expanded="true" signature="352:415" ph="{...}" />
+            <marker date="1558641702541" expanded="true" signature="421:815" ph="/* private void Update() ... */" />
+            <marker date="1558641702541" expanded="true" signature="851:1176" ph="{...}" />
+            <marker date="1558641702541" expanded="true" signature="895:1170" ph="{...}" />
+            <marker date="1558641702541" expanded="true" signature="933:1038" ph="{...}" />
+            <marker date="1558641702541" expanded="true" signature="1055:1160" ph="{...}" />
+            <marker date="1558641702541" expanded="true" signature="1213:1255" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory_Button_Object.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <marker date="1558644795365" expanded="false" signature="6:138" ph="..." />
+            <marker date="1558644795365" expanded="true" signature="192:921" ph="{...}" />
+            <marker date="1558644795365" expanded="true" signature="377:540" ph="{...}" />
+            <marker date="1558644795365" expanded="true" signature="407:534" ph="{...}" />
+            <marker date="1558644795365" expanded="true" signature="571:644" ph="{...}" />
+            <marker date="1558644795365" expanded="true" signature="678:744" ph="{...}" />
+            <marker date="1558644795365" expanded="true" signature="776:919" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory_Display.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding>
+            <marker date="1558649737351" expanded="false" signature="6:100" ph="..." />
+            <marker date="1558649737351" expanded="true" signature="148:4100" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="476:510" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="540:1123" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="1220:1686" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="1266:1400" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="1485:1680" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="1760:2182" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="1804:1863" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="1948:2176" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="2215:2308" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="2338:2506" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="2540:2708" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="2739:2907" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="2942:3437" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="2978:3431" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3038:3106" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3153:3221" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3269:3337" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3473:3942" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3626:3691" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3750:3813" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3874:3936" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="3974:4098" ph="{...}" />
+            <marker date="1558649737351" expanded="true" signature="4040:4092" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Test.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DropDown_Script.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/DropDown.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Note.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <marker date="1558495109450" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558495109450" expanded="true" signature="150:262" ph="{...}" />
+            <marker date="1558495109450" expanded="true" signature="211:260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Text_Files/Get_Item_01.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Text_Files/Note_01.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> parent of 3085103... Fixing some parts of the game
   </component>
 </project>
