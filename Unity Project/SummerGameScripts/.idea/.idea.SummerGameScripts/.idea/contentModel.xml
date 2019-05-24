@@ -84,7 +84,7 @@
           </e>
           <e p="Game_Manager_Cafe.cs" t="Include" />
           <e p="Inventory" t="Include">
-            <e p="DropDown.cs" t="Include" />
+            <e p="DropDown_Script.cs" t="Include" />
             <e p="Hover_Pointer_Script.cs" t="Include" />
             <e p="Inventory.cs" t="Include" />
             <e p="Inventory_Button_Object.cs" t="Include" />
