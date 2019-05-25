@@ -37,4 +37,5 @@ sysinfo.txt
 
 \.DS_Store
 
-Unity Project/SummerGameScripts/\.idea/\.idea\.SummerGameScripts/\.idea/
+#JetBrains
+.idea/
