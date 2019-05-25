@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d33215078fd6084a83e918ae0454454, type: 3}
-  m_Name: PipeActionDebug
+  m_Script: {fileID: 11500000, guid: 84f85ef6118211147b232c932a0680ce, type: 3}
+  m_Name: piece_obj_06
   m_EditorClassIdentifier: 
-  Log: Test
+  inplace: 0
+  ID: {fileID: 11400000, guid: ca644ee40df487a479cd71c9cee0c8db, type: 2}

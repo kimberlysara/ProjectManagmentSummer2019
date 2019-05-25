@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SnapScript : MonoBehaviour
+public class AutomaticSnapScript : MonoBehaviour
 {
     private Vector3 _snapPosition;
     private float _objectZ;
@@ -40,4 +40,5 @@ public class SnapScript : MonoBehaviour
             transform.position = _snapPosition;
         }
     }
+
 }
