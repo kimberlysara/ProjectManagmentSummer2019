@@ -5,16 +5,16 @@ using UnityEngine.Events;
 
 public class Match_Script : MonoBehaviour
 {
-    public Name_ID id;
-    private Name_ID id_02;
     public UnityEvent OnMatch, UnMatch;
     private bool matched = false;
+    public Object obj_01;
+    private Object obj_02;
     
     private void OnTriggerEnter(Collider other)
     {
         if (other.GetComponent<Object_ID>()!= null)
         {
-            id_02 = other.GetComponent<Object_ID>().ID;
+            obj_02 = other.GetComponent<Object_ID>().ID;
         }
     }
 
@@ -26,38 +26,39 @@ public class Match_Script : MonoBehaviour
             UnMatch.Invoke();
         }
 
-        id_02 = null;
+        obj_02 = null;
     }
 
-    public bool CheckMatch(Name_ID ID)
+    public void CheckMatch_Object(Object obj_02)
     {
-        if (ID.id == id.id)
+        if (obj_02 == obj_01)
         {
             matched = true;
             OnMatch.Invoke();
-            return true;
+            return;
         }
-        return false;
-    }
 
-    public void CheckMatch(GameObject obj)
-    {
-        Name_ID ID = obj.GetComponent<Object_ID>().ID;
-        if(ID!= null)
-            if (ID.id == id.id)
-            {
-                matched = true;
-                OnMatch.Invoke();
-            }
+        return;
     }
-
-    public void CheckMatch()
+    
+    public void CheckMatch_StringData(StringData obj_02)
     {
-        if (id_02 == null)
+        string str_01 = (obj_01 as StringData).value;
+        string str_02 = obj_02.value;
+        if (str_01 == str_02)
+        {
+            matched = true;
+            OnMatch.Invoke();
+        }
+    }
+    
+    public void CheckMatch_Trigger()
+    {
+        if (obj_02 == null)
         {
             return;
         }
-        if (id.id == id_02.id)
+        if (obj_01 == obj_02)
         {
             matched = true;
             OnMatch.Invoke();

@@ -83,6 +83,7 @@
             <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="Game_Manager_Cafe.cs" t="Include" />
+          <e p="Input_Text.cs" t="Include" />
           <e p="Inventory" t="Include">
             <e p="DropDown_Script.cs" t="Include" />
             <e p="Hover_Pointer_Script.cs" t="Include" />
@@ -155,7 +156,6 @@
               <e p="Slide_Tiles.cs" t="Include" />
             </e>
           </e>
-          <e p="Test_Move.cs" t="Include" />
         </e>
         <e p="Test.cs" t="Include" />
       </e>
